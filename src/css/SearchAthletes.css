@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+form button {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 400px) {
+  form {
+    max-width: 300px;
+  }
+  form button {
+    width: 25%;
+  }
+  .athlete-container {
+    width: 300px;
+  }
+}
+
+img {
+  width: 250px;
+}
+
+.athlete-container {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5rem;
+  background-color: #fff;
+  max-width: 400px;
+  padding: 2rem 0;
+  border-radius: 0.25rem;
+}
+
+.athlete-container button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.name {
+  width: 250px;
+  background-color: tomato;
+  margin: 0 auto;
+  color: #333;
+  letter-spacing: 0.15rem;
+  font-family: 'Holtwood One SC', serif;
+  word-wrap: break-word;
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
+.list-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 600px) {
+  .list-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 820px) and (min-width: 601px) {
+  .list-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}

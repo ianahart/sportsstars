@@ -1,0 +1,22 @@
+.auth-button-container {
+  display: flex;
+}
+
+.auth-button {
+  border: none;
+  outline: none;
+  color: slategray;
+  border-radius: 0.25rem;
+  transition: all 1s ease-in-out;
+}
+
+.auth-button:hover {
+  outline: none;
+  border: none;
+  background-color: mintcream;
+}
+
+.auth-button i {
+  margin-right: 0.25rem;
+  color: tomato;
+}

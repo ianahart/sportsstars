@@ -1,0 +1,10 @@
+.modal-body p {
+  margin-bottom: 0.2rem;
+}
+
+.bio-heading {
+  letter-spacing: 0.15rem;
+  background-color: tomato;
+  padding: 0.2rem 0;
+  color: #333;
+}

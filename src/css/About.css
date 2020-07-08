@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.banner {
+  background-color: tomato;
+  padding: 2rem;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 0 1rem;
+}
+
+.filler-text {
+  align-self: center;
+  max-width: 600px;
+  word-wrap: break-word;
+}
+
+.image-container img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Holtwood One SC', serif;
+}
+
+.banner-bottom {
+  margin: 0 auto;
+}
+
+.social-icons i {
+  color: #fff;
+  margin: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.social-icons i:hover {
+  color: #333;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1200px) {
+  .row {
+    grid-template-columns: 1fr 1fr;
+    width: 75%;
+  }
+  .filler-text {
+    width: 100%;
+  }
+  .banner {
+    width: 75%;
+  }
+
+  .image-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    grid-template-columns: 1fr;
+    width: 75%;
+    padding: 0;
+  }
+  .image-container img {
+    width: 100%;
+  }
+  .banner {
+    width: 75%;
+  }
+  .filler-text p {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  .row {
+    grid-template-columns: 1fr;
+    width: 75%;
+  }
+  .banner {
+    width: 75%;
+  }
+  .image-container img {
+    width: 100%;
+  }
+  .filler-text {
+    min-width: 100%;
+  }
+}
